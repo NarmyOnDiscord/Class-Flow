@@ -147,7 +147,7 @@ footer .socials .social-icon:hover {
     transform: scale(1.1);
 }
 
-/* index */
+
 
 .jumbotron-index {
     display: flex;
@@ -157,9 +157,22 @@ footer .socials .social-icon:hover {
     padding: 180px;
 }
 
-.why-classflow img {
-    padding: 75px 0;
+.jumbotron-support {
+    display: flex;
+    align-items: center;
+    background: url(https://images.unsplash.com/photo-1600132806608-231446b2e7af) no-repeat center center;
+    background-size: cover;
+    padding: 180px;
 }
+
+.jumbotron-download {
+    display: flex;
+    align-items: center;
+    background: url(https://images.unsplash.com/photo-1617777938240-9a1d8e51a47d) no-repeat center center;
+    background-size: cover;
+    padding: 180px;
+}
+
 
 #background-white {
     background-color: white;
@@ -169,3 +182,36 @@ footer .socials .social-icon:hover {
     background-color: var(--grey);
 }
 
+.why-classflow img {
+    padding: 75px 0;
+}
+
+.download-device-grid {
+    display: grid;
+    grid-template-areas: 
+        "ios android"
+        "web web";
+    gap: 50px;
+    padding: 75px 0;
+}
+
+.download-device {
+    display: flex;
+    justify-content: center;
+
+    background-color: var(--grey);
+    border-radius: 40px;
+    padding: 30px 30px 0px 30px
+}
+
+.download-device.ios {
+    grid-area: ios;
+}
+
+.download-device.android {
+    grid-area: android;
+}
+
+.download-device.web {
+    grid-area: web;
+}
