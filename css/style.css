@@ -173,6 +173,15 @@ footer .socials .social-icon:hover {
     padding: 180px;
 }
 
+.jumbotron-team {
+    display: flex;
+    align-items: center;
+    background-color: var(--blue);
+    background-size: cover;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
 
 #background-white {
     background-color: white;
